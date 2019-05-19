@@ -192,6 +192,7 @@ function evaluate(arr){
         if(arr[i] == "/" || arr[i] == "*"){
             let result = operate(Number(arr[i-1]), arr[i], Number(arr[i+1]));
             arr.splice(i-1, 3, result.toString());
+            i--;
         }
     }
     console.log(arr);
@@ -199,6 +200,7 @@ function evaluate(arr){
         if(arr[i] == "+" || arr[i] == "-"){
             let result = operate(Number(arr[i-1]), arr[i], Number(arr[i+1]));
             arr.splice(i-1, 3, result.toString());
+            i--;
         }
     }
     console.log(arr);
