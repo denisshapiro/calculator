@@ -61,81 +61,28 @@ button:active{
 
 #display{
     position: relative;
-    top: 35px;
+    top: 20px;
     border-radius: 15px;
+    height: 55px;
+    font-size: 20px;
+    width: 500px;
 }
 
-#container > #clear-container{
-    grid-area: clear;
-}
-
-#container > #BS-container{
-    grid-area: backspace;
-}
-
-#container > #minus-container{
-    grid-area: subt;
-}
-
-#container > #plus-container{
-    grid-area: addition;
-}
-
-#container > #equal-container{
-    grid-area: equals;
-}
-
-#container > #decimal-container{
-    grid-area: dec;
-}
-
-#container > #divide-container{
-    grid-area: divide;
-}
-
-#container > #seven-container{
-    grid-area: seven;
-}
-
-#container > #eight-container{
-    grid-area: eight;
-}
-
-#container > #nine-container{
-    grid-area: nine;
-}
-
-#container > #multiply-container{
-    grid-area: mult;
-}
-
-#container > #four-container{
-    grid-area: four;
-}
-
-#container > #five-container{
-    grid-area: five;
-}
-
-#container > #six-container{
-    grid-area: six;
-}
-
-#container > #three-container{
-    grid-area: three;
-}
-
-#container > #two-container{
-    grid-area: two;
-}
-
-#container > #one-container{
-    grid-area: one;
-}
-
-#container > #zero-container{
-    grid-area: zerobutton;
-}
-
-
-
+#container > #clear-container{grid-area: clear;}
+#container > #BS-container{grid-area: backspace;}
+#container > #minus-container{grid-area: subt;}
+#container > #plus-container{grid-area: addition;}
+#container > #equal-container{grid-area: equals;}
+#container > #decimal-container{grid-area: dec;}
+#container > #divide-container{grid-area: divide;}
+#container > #seven-container{grid-area: seven;}
+#container > #eight-container{grid-area: eight;}
+#container > #nine-container{grid-area: nine;}
+#container > #multiply-container{grid-area: mult;}
+#container > #four-container{grid-area: four;}
+#container > #five-container{grid-area: five;}
+#container > #six-container{grid-area: six;}
+#container > #three-container{grid-area: three;}
+#container > #two-container{grid-area: two;}
+#container > #one-container{grid-area: one;}
+#container > #zero-container{grid-area: zerobutton;}
