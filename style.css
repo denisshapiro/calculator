@@ -1,0 +1,141 @@
+body{
+    background-color: rgba(233, 168, 168, 0.192);
+}
+
+#container{
+    display: grid;
+    width: 500px;
+    height: 700px;
+    grid-gap: 1px;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    top: 50px;
+    
+    grid-template-areas: "display display display display"
+                         "clear backspace dec divide"
+                         "seven eight nine mult"
+                         "four five six subt"
+                         "one two three addition"
+                         "zerobutton zerobutton zerobutton equals";
+}
+
+#center-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    background-color: rgb(196, 186, 186);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 15px;
+    color: rgb(100, 99, 99);
+}
+
+button.operator{
+    background-color: orange;
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.692);
+}
+
+button:active{
+    color: white;
+    box-shadow: 0 0 5px red;
+}
+
+#container > #display{
+    grid-area: display;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(196, 186, 186);
+}
+
+#display{
+    position: relative;
+    top: 35px;
+    border-radius: 15px;
+}
+
+#container > #clear-container{
+    grid-area: clear;
+}
+
+#container > #BS-container{
+    grid-area: backspace;
+}
+
+#container > #minus-container{
+    grid-area: subt;
+}
+
+#container > #plus-container{
+    grid-area: addition;
+}
+
+#container > #equal-container{
+    grid-area: equals;
+}
+
+#container > #decimal-container{
+    grid-area: dec;
+}
+
+#container > #divide-container{
+    grid-area: divide;
+}
+
+#container > #seven-container{
+    grid-area: seven;
+}
+
+#container > #eight-container{
+    grid-area: eight;
+}
+
+#container > #nine-container{
+    grid-area: nine;
+}
+
+#container > #multiply-container{
+    grid-area: mult;
+}
+
+#container > #four-container{
+    grid-area: four;
+}
+
+#container > #five-container{
+    grid-area: five;
+}
+
+#container > #six-container{
+    grid-area: six;
+}
+
+#container > #three-container{
+    grid-area: three;
+}
+
+#container > #two-container{
+    grid-area: two;
+}
+
+#container > #one-container{
+    grid-area: one;
+}
+
+#container > #zero-container{
+    grid-area: zerobutton;
+}
+
+
+
